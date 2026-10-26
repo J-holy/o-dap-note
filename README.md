@@ -3,7 +3,7 @@
 시험지 사진을 올리면 틀린 문제만 골라 필기·낙서를 지우고, 오답노트(PDF)로 만들어 주는 단일 파일 웹앱입니다.
 
 ## 실행
-`odap-note.html`을 브라우저(Chrome 권장)에서 열면 바로 동작합니다. 빌드 과정이 없습니다.
+`index.html`을 브라우저(Chrome 권장)에서 열면 바로 동작합니다. 빌드 과정이 없습니다.
 
 ## 흐름
 1. 사진 올리기 → 밝기·기울기 보정
@@ -18,3 +18,7 @@
 - 원근 왜곡(4점 보정) 미지원
 - Safari 미검증
 - 2차: 과목·단원 태그, 틀린 이유, 필터 / 3차: 답 가리고 다시 풀기, 복습 완료
+
+## 배포 (GitHub Pages)
+저장소 Settings → Pages → Source: `Deploy from a branch`, Branch: `main` / `/ (root)` 로 설정하면
+`https://j-holy.github.io/o-dap-note/` 주소로 누구나 접속할 수 있습니다.
